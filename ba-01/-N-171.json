@@ -1,0 +1,95 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 171,
+    "analysis_type": "blank_air",
+    "analyst_name": "root",
+    "collection_version": "1.0:1.0",
+    "comment": "",
+    "commit": "96f1731344fdb13796ef756001311fa2d7576b63",
+    "conditionals": null,
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": null,
+            "gain": null
+        },
+        "H1": {
+            "deflection": null,
+            "gain": null
+        },
+        "H2": {
+            "deflection": null,
+            "gain": null
+        },
+        "L1": {
+            "deflection": null,
+            "gain": null
+        },
+        "L2": {
+            "deflection": null,
+            "gain": null
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "Load32",
+    "extraction": "ngx_air_x1.py",
+    "identifier": "ba-01-N",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NoIrradiation",
+    "irradiation_level": "A",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Ngx",
+    "material": "Blank",
+    "measurement": "ngx_air.py",
+    "post_equilibration": "ngx_pump_air.py",
+    "post_measurement": "ngx_pump_ms.py",
+    "principal_investigator": "AGES-LDEO",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Ngx_blank180",
+    "sample": "blank_air",
+    "source": {
+        "emission": 1571.62,
+        "trap": 200.05019
+    },
+    "spec_sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "timestamp": "2018-06-18T17:02:21.183119",
+    "tripped_conditional": null,
+    "username": "root",
+    "uuid": "1867bf65-eb90-4c30-a9d1-4c4597a96279",
+    "whiff_result": null
+}
