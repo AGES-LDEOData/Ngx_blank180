@@ -1,0 +1,69 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 345,
+    "analysis_type": "blank_air",
+    "analyst_name": "root",
+    "collection_version": "1.0:1.0",
+    "comment": "",
+    "commit": "345f3beb68befedcf02a1fb9bb62c85ad0ac02b5",
+    "conditionals": null,
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "L2": {
+            "deflection": null,
+            "gain": null
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "Load39",
+    "extraction": "ngx_air_x1_tripleuppersplit.py",
+    "identifier": "ba-01-N",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NoIrradiation",
+    "irradiation_level": "A",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L2",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "L2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Ngx",
+    "material": "Blank",
+    "measurement": "ngx_ar_icm_hopping.py",
+    "post_equilibration": "ngx_pump_air.py",
+    "post_measurement": "ngx_pump_ms.py",
+    "principal_investigator": "AGES-LDEO",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Ngx_blank180",
+    "sample": "blank_air",
+    "source": {
+        "emission": 1583.91,
+        "trap": 199.98361
+    },
+    "spec_sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "timestamp": "2018-07-07T15:36:53.571575",
+    "tripped_conditional": null,
+    "username": "root",
+    "uuid": "f072098f-726c-47d9-89e9-9ca002b8a971",
+    "whiff_result": null
+}
